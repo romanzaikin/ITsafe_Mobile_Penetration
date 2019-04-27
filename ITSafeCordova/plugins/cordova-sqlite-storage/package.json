@@ -1,0 +1,73 @@
+{
+  "_from": "cordova-sqlite-storage",
+  "_id": "cordova-sqlite-storage@3.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-++qDuswavJ6k9zvoG2rAGmkvvzBO0sUWwh2Ccs64/Fj+CV8pmED76crq3/Lj2myDFqwuJ1LnMIlmXIlb5dAaxg==",
+  "_location": "/cordova-sqlite-storage",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-sqlite-storage",
+    "name": "cordova-sqlite-storage",
+    "escapedName": "cordova-sqlite-storage",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-sqlite-storage/-/cordova-sqlite-storage-3.2.0.tgz",
+  "_shasum": "ef7c71c4de076b99b6e872d9f0a388656bf7f843",
+  "_spec": "cordova-sqlite-storage",
+  "_where": "C:\\Users\\roman\\Desktop\\ITSAFE\\hello",
+  "author": {
+    "name": "various"
+  },
+  "bugs": {
+    "url": "https://github.com/xpbrew/cordova-sqlite-storage/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-sqlite-storage",
+    "platforms": [
+      "android",
+      "ios",
+      "osx",
+      "windows"
+    ]
+  },
+  "dependencies": {
+    "cordova-sqlite-storage-dependencies": "2.0.0"
+  },
+  "deprecated": false,
+  "description": "Native interface to SQLite for PhoneGap/Cordova - cordova-sqlite-storage plugin version",
+  "devDependencies": {
+    "coffeescript": "1",
+    "cross-spawn": "^6.0.5",
+    "fs-extra": "^7.0.1"
+  },
+  "homepage": "https://github.com/xpbrew/cordova-sqlite-storage",
+  "keywords": [
+    "sqlite",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-osx",
+    "cordova-windows"
+  ],
+  "license": "MIT",
+  "name": "cordova-sqlite-storage",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xpbrew/cordova-sqlite-storage.git"
+  },
+  "scripts": {
+    "clean-spec": "rm -rf spec/[mnp]* && git cl spec/config.xml && git st",
+    "prepare-js": "coffee -p SQLitePlugin.coffee.md > www/SQLitePlugin.js",
+    "prepare-spec": "node scripts/prepareSpec.js"
+  },
+  "version": "3.2.0"
+}
